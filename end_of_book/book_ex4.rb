@@ -1,6 +1,14 @@
-arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+def string_lengths(sentence)
+  strings = sentence.split
+  lengths = []
+  counter = 1
 
-arr << 11
-arr.unshift(0)
-puts arr
-puts ''
+  until counter == strings.size do
+    word_length = strings[counter - 1].length
+    lengths.push(word_length)
+    counter += 1
+  end
+
+  lengths
+end
+p string_lengths('to be or not to be')
