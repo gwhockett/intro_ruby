@@ -1,0 +1,3 @@
+- [X] work on Launchschool
+- [ ] Spin bike
+- [ ] Work on shower
